@@ -1,0 +1,18 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 30vw;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    color: white;
+    background-color: black;
+    border: 1px solid red;
+
+}
