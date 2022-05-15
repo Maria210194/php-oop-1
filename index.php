@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Movies</title>
 </head>
 <body>
@@ -44,26 +44,26 @@ $movie_3->year = '1999';
 
 //first tests
 
-echo('<pre><div class="card">');
-echo('<p> Title: ' . $movie_1->title . '</p>');
-echo('<p> Genre: ' . $movie_1->genre . '</p>');
-echo('<p> Year: ' . $movie_1->year . '</p>');
-echo('<p>'.$movie_1->ratingMovie().'</p>');
-echo('<p>'.$movie_1->yearMovie().'</p>');
-echo('</div></pre>');
+echo('<pre><div class="card">'.
+'<p> Title: ' . $movie_1->title . '</p>'.
+'<p> Genre: ' . $movie_1->genre . '</p>'.
+'<p> Year: ' . $movie_1->year . '</p>'.
+'<p>'.$movie_1->ratingMovie().'</p>'.
+'<p>'.$movie_1->yearMovie().'</p>'.
+'</div></pre>');
 
 
 
 
 
 
-echo('<pre><div class="card">');
-echo('<p> Title: ' . $movie_2->title . '</p>');
-echo('<p> Genre: ' . $movie_2->genre . '</p>');
-echo('<p> Year: ' . $movie_2->year . '</p>');
-echo('<p>'.$movie_2->ratingMovie().'</p>');
-echo('<p>'.$movie_2->yearMovie().'</p>');
-echo('</div></pre>');
+echo('<pre><div class="card">'.
+'<p> Title: ' . $movie_2->title . '</p>'.
+'<p> Genre: ' . $movie_2->genre . '</p>'.
+'<p> Year: ' . $movie_2->year . '</p>'.
+'<p>'.$movie_2->ratingMovie().'</p>'.
+'<p>'.$movie_2->yearMovie().'</p>'.
+'</div></pre>');
 
 
 ?>
