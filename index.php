@@ -54,9 +54,6 @@ echo('<pre><div class="card">'.
 
 
 
-
-
-
 echo('<pre><div class="card">'.
 '<p> Title: ' . $movie_2->title . '</p>'.
 '<p> Genre: ' . $movie_2->genre . '</p>'.

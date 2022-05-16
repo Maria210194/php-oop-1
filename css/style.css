@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: url("img/movie.png");
-    background-repeat: repeat;
+    background-image: url("/images/movie.png");
+    background-repeat: no-repeat;
     background-position: inherit;
     background-size: inherit;
 }
@@ -20,5 +20,5 @@ body {
     row-gap: 15px;
     color: white;
     background-color: black;
-    border: 1px solid red;
+    border: 2px solid red;
 }
